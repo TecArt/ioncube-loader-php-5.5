@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e
+
+if which invoke-rc.d >/dev/null 2>&1
+then
+	invoke-rc.d apache2 reload 2>&1 >/dev/null || true
+else
+	/etc/init.d/apache2 reload 2>&1 >/dev/null || true
+fi
+
+if which invoke-rc.d >/dev/null 2>&1
+then
+	invoke-rc.d php5-fpm reload 2>&1 >/dev/null || true
+else
+	/etc/init.d/php5-fpm reload 2>&1 >/dev/null || true
+fi

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+invoke-rc.d apache2 reload  2>&1 >/dev/null || true
+invoke-rc.d php5-fpm reload 2>&1 >/dev/null || true
+

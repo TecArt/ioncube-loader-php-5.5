@@ -1,0 +1,17 @@
+ioncube-loader-php-5.5 (1:4.6.1-3) unstable; urgency=low
+
+  * Fixed bug in dependency versioning
+
+ -- TecArt Repository Maintainer <repository@tecart.de>  Thu, 23 Jul 2015 09:37:13 +0200
+
+ioncube-loader-php-5.5 (1:4.6.1-2) unstable; urgency=low
+
+  * Added exact version for PHP dependency
+
+ -- TecArt Repository Maintainer <repository@tecart.de>  Tue, 14 Jul 2015 16:23:11 +0200
+
+ioncube-loader-php-5.5 (1:4.6.1-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- TecArt Repository Maintainer <repository@tecart.de>  Tue, 07 Jul 2015 10:47:18 +0200
