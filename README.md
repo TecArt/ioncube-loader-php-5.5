@@ -1,5 +1,7 @@
 ## ionCube Loader for PHP 5.5
 
+:exclamation: PHP 5.5 has reached End-Of-Life and is no longer supported. If you are still using PHP 5.5 please upgrade your installation to a [supported version](http://php.net/supported-versions.php).
+
 This is the debianized source package for the ionCube Loader. This will 
 install the Loader as well as required configuration files.
 
